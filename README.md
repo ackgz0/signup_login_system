@@ -30,20 +30,20 @@ This is a simple signup and login system built using PHP and MySQL. The system a
 
 2. **Create a Database**
 Create a new database in MySQL or MariaDB and import the provided SQL schema.
-------------------------------------------------------------------------------*
+
+```
 CREATE TABLE users (
 id INT AUTO_INCREMENT PRIMARY KEY,
 username VARCHAR(50) NOT NULL UNIQUE,
 pwd VARCHAR(255) NOT NULL
 );
-*------------------------------------------------------------------------------
-
+```
 
 3. **Configure Database Connection**
 
 Edit the includes/dbh.inc.php file to include your database connection details.
 
--------------------------------------------------------------------------------
+```
 <?php
 $host = 'localhost';
 $db   = 'your_database_name';
@@ -57,13 +57,13 @@ try {
     die("Database connection failed: " . $e->getMessage());
 }
 ?>
--------------------------------------------------------------------------------
+```
 
 4. **Update Session Configuration**
 
 Edit the includes/config_session.inc.php file to suit your server configuration, especially the session cookie settings.
 
--------------------------------------------------------------------------------
+```
 <?php
 
 ini_set('session.use_only_cookies', 1);
@@ -79,7 +79,7 @@ session_set_cookie_params([
 
 session_start();
 ?>
--------------------------------------------------------------------------------
+```
 Adjust session settings according to your server's requirements, particularly the cookie parameters.
 
 5. **Set Up Web Server**
