@@ -32,14 +32,14 @@ This is a simple signup and login system built using PHP and MySQL. The system a
 Create a new database in MySQL or MariaDB and import the provided SQL schema.
 ------------------------------------------------------------------------------*
 CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL UNIQUE,
-    pwd VARCHAR(255) NOT NULL
+id INT AUTO_INCREMENT PRIMARY KEY,
+username VARCHAR(50) NOT NULL UNIQUE,
+pwd VARCHAR(255) NOT NULL
 );
 *------------------------------------------------------------------------------
 
 
-3. **Configure Database Connection**
+4. **Configure Database Connection**
 
 Edit the includes/dbh.inc.php file to include your database connection details.
 
