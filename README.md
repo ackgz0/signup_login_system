@@ -59,7 +59,7 @@ try {
 ?>
 -------------------------------------------------------------------------------
 
-**Update Session Configuration**
+5. **Update Session Configuration**
 
 Edit the includes/config_session.inc.php file to suit your server configuration, especially the session cookie settings.
 
@@ -82,7 +82,7 @@ session_start();
 -------------------------------------------------------------------------------
 Adjust session settings according to your server's requirements, particularly the cookie parameters.
 
-**Set Up Web Server**
+6. **Set Up Web Server**
 
 Ensure your web server is configured to serve the PHP files and point to the root directory of your project.
 
