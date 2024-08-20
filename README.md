@@ -39,7 +39,7 @@ pwd VARCHAR(255) NOT NULL
 *------------------------------------------------------------------------------
 
 
-4. **Configure Database Connection**
+3. **Configure Database Connection**
 
 Edit the includes/dbh.inc.php file to include your database connection details.
 
@@ -59,7 +59,7 @@ try {
 ?>
 -------------------------------------------------------------------------------
 
-5. **Update Session Configuration**
+4. **Update Session Configuration**
 
 Edit the includes/config_session.inc.php file to suit your server configuration, especially the session cookie settings.
 
@@ -82,7 +82,7 @@ session_start();
 -------------------------------------------------------------------------------
 Adjust session settings according to your server's requirements, particularly the cookie parameters.
 
-6. **Set Up Web Server**
+5. **Set Up Web Server**
 
 Ensure your web server is configured to serve the PHP files and point to the root directory of your project.
 
