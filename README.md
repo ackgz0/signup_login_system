@@ -29,15 +29,15 @@ This is a simple signup and login system built using PHP and MySQL. The system a
    cd signup-login-system
 
 2. **Create a Database**
-
 Create a new database in MySQL or MariaDB and import the provided SQL schema.
--------------------------------------------------------------------------------
+------------------------------------------------------------------------------*
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
     pwd VARCHAR(255) NOT NULL
 );
--------------------------------------------------------------------------------
+*------------------------------------------------------------------------------
+
 
 3. **Configure Database Connection**
 
